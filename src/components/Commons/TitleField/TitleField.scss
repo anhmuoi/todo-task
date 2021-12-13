@@ -1,0 +1,20 @@
+.TextInput {
+  margin: 0 auto;
+  margin-top: 40px;
+  width: calc(100% - 20px);
+  height: 28px;
+  color: #000000;
+  font-family: 'Source Sans Pro';
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: none;
+  text-align: left;
+  padding: 10px;
+  background: #ffffff;
+  border: 1px solid #bdbdbd;
+  border-radius: 5px;
+}
+.error {
+  color: red;
+}

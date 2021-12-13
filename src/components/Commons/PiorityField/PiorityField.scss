@@ -1,0 +1,21 @@
+.pior {
+  width: 180px;
+  span {
+    margin-bottom: 7px;
+    color: #000000;
+    font-family: 'Source Sans Pro';
+    font-size: 12px;
+    font-weight: bold;
+    font-style: normal;
+    text-decoration: none;
+    text-align: left;
+  }
+  select {
+    width: inherit;
+    height: 32px;
+  }
+  @media screen and (max-width: 767px) {
+    width: 100%;
+  }
+  
+}

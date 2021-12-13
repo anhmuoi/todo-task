@@ -1,0 +1,52 @@
+.heading {
+  margin: 0 auto;
+  margin-top: 20px;
+  width: 90px;
+  height: auto;
+  color: #000000;
+  font-family: 'Source Sans Pro';
+  font-size: 18px;
+  text-align: center;
+  line-height: 1px;
+  padding: 5px;
+}
+.newTask {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  form {
+      width: 85%;
+  }
+  &__dateSelect {
+      width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 55px;
+    @media screen and (max-width: 767px) {
+      flex-direction: column;
+      gap: 5px;
+    
+    }
+    
+
+  }
+}
+
+.button {
+  width: 100%;
+  height: 32px;
+  margin-bottom: 30px;
+  color: #ffffff;
+  font-family: Arimo;
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: none;
+  text-align: center;
+  background: #5cb85c;
+  border: none;
+  border-radius: 5px;
+  text-transform: capitalize;
+
+}

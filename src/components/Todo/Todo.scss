@@ -1,0 +1,92 @@
+.todo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+
+  &__action {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0 10px;
+    width: 85%;
+    height: 61px;
+    background: #ffffff;
+    border: 1px solid #000000;
+
+    border-radius: 0px;
+  }
+  &__checkbox {
+  }
+  &__detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 30px;
+    width: 100%;
+    form {
+      width: 85%;
+      padding: 10px;
+      background: #ffffff;
+      border: 1px solid #000000;
+      border-top: none;
+      border-radius: 0px;
+    }
+  }
+  &__dateSelect {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 55px;
+  }
+  &__button {
+    display: flex;
+    gap: 20px;
+  }
+}
+
+.button {
+  width: 100%;
+  height: 32px;
+  color: #ffffff;
+  font-family: Arimo;
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: none;
+  text-align: center;
+  background: #5cb85c;
+  border: none;
+  border-radius: 5px;
+  text-transform: capitalize;
+  &__detail {
+    width: 93px;
+    height: 27px;
+    color: #ffffff;
+    font-family: Arimo;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    text-align: center;
+    background: #00bcd4;
+    border: none;
+    border-radius: 3px;
+  }
+  &__remove {
+    width: 79px;
+    height: 28px;
+    color: #ffffff;
+    font-family: Arimo;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    text-align: center;
+    background: #d9534f;
+    border: none;
+    border-radius: 3px;
+  }
+}
