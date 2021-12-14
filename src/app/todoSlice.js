@@ -1,7 +1,8 @@
 import { createSlice } from '@reduxjs/toolkit';
 
 const initialState = {
-  todoItems: [],
+  // get from localStorage
+  todoItems: JSON.parse(localStorage.getItem('todoItems')) || [],
 };
 
 const todoSlice = createSlice({
@@ -32,7 +33,7 @@ const todoSlice = createSlice({
     },
     checked(state, action) {
       state.todoItems = state.todoItems.map((item) => {
-        if (item.title === action.payload.title) {
+        if (item.id === action.payload.id) {
           return { ...item, checked: !item.checked };
         }
         return item;

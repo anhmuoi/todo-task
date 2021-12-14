@@ -21,6 +21,7 @@ function TodoList(props) {
   const todoListSort = [...todoListSelect?.todoItems].sort((a, b) => {
     return new Date(a.dueDate).getTime() - new Date(b.dueDate).getTime();
   });
+  localStorage.setItem('todoItems', JSON.stringify(todoListSort));
 
   const [search, setSearch] = useState('');
   const [todoList, setTodoList] = useState([]);
